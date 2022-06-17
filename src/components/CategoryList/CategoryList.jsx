@@ -14,8 +14,9 @@ export default function CategoryList({ categories, activeCat, setActiveCat }) {
   );
   return (
     <>
-    <h1>Cuisine</h1>
+    
     <ul className="CategoryList">
+    <h1>Cuisine</h1>
       {cats}
     </ul>
     </>

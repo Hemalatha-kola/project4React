@@ -26,7 +26,7 @@ export default function App() {
             <Route path="/orders">
               <OrderHistoryPage />
             </Route>
-            <Redirect to="/orders" />
+            <Redirect to="/about" />
           </Switch>
         </>
       ) : (
