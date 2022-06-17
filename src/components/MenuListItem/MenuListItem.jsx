@@ -6,7 +6,8 @@ export default function MenuListItem({ menuItem }) {
       <div className="emoji flex-ctr-ctr">{menuItem.emoji}</div>
       <div className="name">{menuItem.name}</div>
       <div className="buy">
-        <span>${menuItem.price.toFixed(2)}</span>
+        <span>{menuItem.price.toFixed(1)}</span>
+        <h5>Rating</h5>
         <button className="btn-sm" onClick={() => console.log('clicked')}>
           ADD
         </button>
