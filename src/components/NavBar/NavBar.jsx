@@ -10,6 +10,8 @@ export default function NavBar(props){
 
     return (
         <nav>
+            <Link to="/about">About</Link>
+            &nbsp; | &nbsp;
             <Link to="/orders">Order History</Link>
             &nbsp; | &nbsp;
             <Link to="/orders/new">New Order</Link>
