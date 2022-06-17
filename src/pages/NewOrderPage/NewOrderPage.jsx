@@ -43,7 +43,7 @@ export default function NewOrderPage(){
         <Link to="/orders" className="button btn-sm">Favourite List</Link>
         
         </aside>
-        <h1>Top Restaurants</h1>
+        <h1>Top Rated Restaurants</h1>
         <MenuList
         menuItems={menuItems.filter(item => item.category.name === activeCat)}
         />
