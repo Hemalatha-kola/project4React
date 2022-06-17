@@ -6,3 +6,7 @@
     padding: 3vmin;
     overflow-y: scroll;
   }
+  .MenuListItems{
+    display:inline-flex
+  }
+  

@@ -12,10 +12,12 @@ export default function NavBar(props){
         <nav>
             <Link to="/about">About</Link>
             &nbsp; | &nbsp;
-            <Link to="/orders">Order History</Link>
+            <Link to="/orders">Favourite List</Link>
             &nbsp; | &nbsp;
-            <Link to="/orders/new">New Order</Link>
+            <Link to="/orders/new">Restaurant List</Link>
+            &nbsp; | &nbsp;
             <span> Welcome {props.user.name}</span>
+            &nbsp; | &nbsp;
             <Link onClick={handleLogOut} to="">Logout</Link>
         </nav>
     );
