@@ -1,0 +1,23 @@
+.images .home-page-img{
+    height: 20px;
+    width: 20px;
+}
+.images .home-page-img2{
+    height: 20px;
+    width: 20px;
+}
+.images{
+    display:grid;
+    
+}
+.home-page-div {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 15px;
+    font-weight: bold;
+}
+
+.home-page-img {
+    height: 100%;
+    width: 100%;
+}

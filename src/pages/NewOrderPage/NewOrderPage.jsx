@@ -64,7 +64,7 @@ export default function NewOrderPage(){
             activeCat={activeCat}
             setActiveCat={setActiveCat}
         />
-        <Link to="/orders" className="button btn-sm">Favourite List</Link>
+        <Link to="/home" className="button btn-sm">HOME</Link>
         
         </aside>
         
