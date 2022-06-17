@@ -13,8 +13,11 @@ export default function CategoryList({ categories, activeCat, setActiveCat }) {
     </li>
   );
   return (
+    <>
+    <h1>Cuisine</h1>
     <ul className="CategoryList">
       {cats}
     </ul>
+    </>
   );
 }
