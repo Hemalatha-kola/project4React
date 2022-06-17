@@ -36,10 +36,10 @@ export default function OrderDetail({ order, handleChangeQty, handleCheckout }) 
                   className="btn-sm"
                   onClick={handleCheckout}
                   disabled={!lineItems.length}
-                >CHECKOUT</button>
+                >Fav List Of Restaurants</button>
               }
-              <span>{order.totalQty}</span>
-              <span className="right">${order.orderTotal.toFixed(2)}</span>
+              
+              
             </section>
           </>
           :
