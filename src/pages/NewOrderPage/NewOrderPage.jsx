@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import * as itemsAPI from '../../utilities/items-api';
-
+import * as ordersAPI from '../../utilities/orders-api';
 import './NewOrderPage.css';
 import { Link, useHistory } from 'react-router-dom';
 import MenuList from '../../components/MenuList/MenuList';
@@ -67,7 +67,7 @@ export default function NewOrderPage(){
         <Link to="/orders" className="button btn-sm">Favourite List</Link>
         
         </aside>
-        <h1>Top Rated Restaurants</h1>
+        
         <MenuList
         menuItems={menuItems.filter(item => item.category.name === activeCat)}
         handleAddToOrder={handleAddToOrder}

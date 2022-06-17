@@ -10,6 +10,7 @@ export default function NavBar(props){
 
     return (
         <nav>
+             
             <Link to="/about">About</Link>
             &nbsp; | &nbsp;
             <Link to="/orders">Favourite List</Link>
@@ -19,6 +20,7 @@ export default function NavBar(props){
             <span> Welcome {props.user.name}</span>
             &nbsp; | &nbsp;
             <Link onClick={handleLogOut} to="">Logout</Link>
+            <h1>Top Rated Restaurants</h1>
         </nav>
     );
 }
