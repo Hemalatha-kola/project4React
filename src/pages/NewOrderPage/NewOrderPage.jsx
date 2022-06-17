@@ -11,8 +11,12 @@ export default function NewOrderPage(){
     });
 
     useEffect(function() {
-        console.log('useEffect runs only after first render');
-    }, []);
+        async function getItems() {
+          const items = await itemsAPI.getAll();
+          setMenuItems(items);
+        }
+        getItems();
+      }, []);
     return (
         <h1>NewOrderPage</h1>
     );
