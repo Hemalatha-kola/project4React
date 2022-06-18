@@ -51,7 +51,7 @@ export default function NewOrderPage(){
     
       async function handleCheckout() {
         await ordersAPI.checkout();
-        history.push('./orders');
+        history.push('./favlist');
       }
 
     return (

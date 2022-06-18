@@ -1,6 +1,6 @@
 import './LineItem.css';
 
-export default function LineItem({ lineItem, isPaid, handleChangeQty }) {
+export default function LineItem({ lineItem }) {
   return (
     <div className="LineItem">
      
