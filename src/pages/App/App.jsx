@@ -26,7 +26,7 @@ export default function App() {
             <Route path="/favlist">
               <OrderHistoryPage />
             </Route>
-            <Redirect to="/about" />
+            <Redirect to="/home" />
           </Switch>
         </>
       ) : (
