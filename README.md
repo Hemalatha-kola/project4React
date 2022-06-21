@@ -7,7 +7,8 @@ This app is a place where user can find top rated restaurants list of various cu
 ![Login](https://i.imgur.com/40x8QV9.png)
 ![Home](https://i.imgur.com/TcxqNL0.png)
 ![Image](https://i.imgur.com/8RLJy8B.jpeg)
-![TopReview list](https://i.imgur.com/3ibCVmN.png)
+![Restaurant list](https://i.imgur.com/iHJiq4E.png)
+![TopReview list](https://i.imgur.com/oa4irxe.png)
 
 ## Technologies Used
 
