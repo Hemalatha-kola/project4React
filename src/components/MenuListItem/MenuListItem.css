@@ -15,11 +15,12 @@
   
   .MenuListItem .emoji {
     height: 8vw;
-    width: 8vw;
+    width: 18vw;
     font-size: small;
     background-color: var(--tan-1);
     border: .1vmin solid var(--tan-3);
     border-radius: 1vmin;
+    color:black;
   }
   
   .MenuListItem .buy {

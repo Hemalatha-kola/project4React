@@ -3,11 +3,16 @@
     justify-content: flex-start;
     align-items:flex-start;
     padding: 3vmin;
+    
+    border: .1vmin solid var(--tan-3);
+    border-radius: 2vmin;
+    margin: 3vmin 0;
+    padding: 3vmin;
+    overflow-y: scroll;
     font-size: 2vmin;
     color: black;;
     background-color: aliceblue;
-    border: .1vmin solid var(--tan-3);
-    border-radius: 1vmin;
+   
   }
   
   .OrderDetail .section-heading {

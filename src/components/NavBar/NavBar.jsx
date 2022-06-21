@@ -14,8 +14,7 @@ export default function NavBar(props){
              
             <Link to="/home">Home</Link>
             &nbsp; | &nbsp;
-            <Link to="/Favlist">Favourite List</Link>
-            &nbsp; | &nbsp;
+           
             <Link to="/restaurants">Restaurant List</Link>
             &nbsp; | &nbsp;
             <span> Welcome {props.user.name}</span>
