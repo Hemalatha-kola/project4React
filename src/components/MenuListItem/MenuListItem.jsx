@@ -6,7 +6,7 @@ export default function MenuListItem({ menuItem, handleAddToOrder }) {
       <div className="emoji flex-ctr-ctr">{menuItem.emoji}</div>
       <div className="name">{menuItem.name}
       <button className="btn-sm" onClick={() => handleAddToOrder(menuItem._id)}>
-          ADD
+          TOP REVIEW
         </button></div>
       <div className="buy">
         <span>{menuItem.price.toFixed(1)}</span>
