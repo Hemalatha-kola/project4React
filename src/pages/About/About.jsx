@@ -5,7 +5,7 @@ export default function (){
        <>
         <div className="about">
         <h1>About</h1>
-        <p>Best place to Know Top Rated Restaurants in Sacramento</p>
+        <p>Best place to Know Top Rated Restaurants in Sacramento, California.</p>
         <div className="home-page-div">
         <div><img className="home-page-img" src="https://images.pexels.com/photos/67468/pexels-photo-67468.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" /></div>
         <div><img className="home-page-img" src="https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt=""/></div>
