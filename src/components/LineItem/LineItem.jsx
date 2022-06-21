@@ -5,7 +5,8 @@ export default function LineItem({ lineItem }) {
     <div className="LineItem">
      
       <div className="flex-ctr-ctr flex-col">
-        <span className="align-ctr">{lineItem.item.name}</span>
+      
+        <span className="align-ctr">{lineItem.item.name}: {lineItem.item.details}</span>
        
       </div>
       
