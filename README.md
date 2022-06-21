@@ -1,6 +1,6 @@
 # Top Rated Restaurants
 
-This app is a place where user can find top rated restaurants list of various cuisines. User can even add those to their favorite list.
+This app is a place where user can find top rated restaurants list of various cuisines. User can even Check the top review of particular restaurant.
 
 ## Screenshots
 ![Signup](https://i.imgur.com/i4PnR5p.png)
